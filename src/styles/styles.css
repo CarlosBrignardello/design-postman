@@ -1,0 +1,251 @@
+body {
+  background-color: #1c272b;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 15px;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.log {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px;
+}
+
+.log a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin: 0;
+}
+
+.log button {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #ff6c37;
+  padding: 15px;
+  border-radius: 5px;
+  border: 0;
+  margin: 0;
+}
+
+/* MAIN */
+main {
+  text-align: center;
+}
+
+.main__text {
+  margin-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  display: inline-block;
+  width: 35%;
+  text-align: start;
+  vertical-align: top;
+}
+
+.main__text h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  margin: 0;
+}
+
+.main__text p {
+  margin: 40px 0;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.main__text button {
+  font-weight: 700;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #ff6c37;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0;
+  margin: 0;
+}
+
+main img {
+  width: 45%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.main__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 60px 250px;
+}
+
+.data-cell {
+  display: inline-block;
+  color: white;
+}
+
+.data-cell h3 {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.data-cell p {
+  font-size: 20px;
+}
+
+/* WHAT IS POSTMAN */
+.what-is-postman {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1d282c), to(#315562));
+  background: linear-gradient(to bottom, #1d282c, #315562);
+}
+
+section .text {
+  margin: 0 auto;
+  text-align: center;
+  width: 55%;
+  color: white;
+}
+
+.text h2 {
+  font-size: 46px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text p {
+  font-size: 17px;
+}
+
+.cards {
+  color: #1c272b;
+  text-align: center;
+}
+
+.details {
+  height: 60%;
+}
+
+.details__bottom {
+  height: 40%;
+}
+
+.card {
+  background-color: #fff;
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  height: 250px;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #1c272b;
+}
+
+/* Discover */
+.discover {
+  background-color: #fff;
+  padding-top: 100px;
+}
+
+.discover__details {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.discover__details img {
+  width: 35%;
+}
+
+.detail {
+  margin-left: 25px;
+  display: inline-block;
+  width: 35%;
+  vertical-align: top;
+  padding: 30px;
+}
+
+.detail h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: start;
+  margin: 0;
+}
+
+.detail p {
+  text-align: start;
+}
+
+.detail a {
+  padding: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1c272b;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
